@@ -1,5 +1,5 @@
-function Header(){
-    return <p>Hello World</p>
+function Header(prop){
+    return <p>Hello {prop.firstName}</p>
   }
 
 export default Header 
