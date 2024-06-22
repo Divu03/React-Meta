@@ -6,7 +6,7 @@ function Hook(){
     return(
         <>
             <p>{onState}</p>
-            {setOnState("Noe turned off")}
+            <button onClick={setOnState("Turned it off")}></button>
             <p>{onState}</p>
         </>
     );
