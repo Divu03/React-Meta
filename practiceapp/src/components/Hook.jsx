@@ -2,13 +2,13 @@ import React,{useState} from "react"
 
 function Hook(){
 
-    const [onState,setOnState] = useState("Yes it is on");
+    let [onStatet,setOnStatet] = useState("Yes it is on");
     return(
-        <>
-            <p>{onState}</p>
-            <button onClick={setOnState("Turned it off")}></button>
-            <p>{onState}</p>
-        </>
+        <div>
+            <p>{onStatet}</p>
+            <button onClick={() =>setOnStatet("Turned it off")}></button>
+            <p>{onStatet}</p>
+        </div>
     );
 }
 
