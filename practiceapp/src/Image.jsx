@@ -4,7 +4,7 @@ import logo from './assets/images/logo.jpg'
 function Image() {
     return(
         <>
-            <img src={logo}/>
+            <img height={1000}  src={logo}/>
         </>
     );
 }
